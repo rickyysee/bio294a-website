@@ -1,7 +1,7 @@
 * {
     font-family: Helvetica, "Calibri", sans-serif;
     box-sizing: border-box;
-    border: red dotted;
+    /* border: red dotted; */
 }
 
 body {
@@ -109,12 +109,15 @@ h4 {
 .paper-body {
     margin-top: 0px;
     width: 80%;
-    display: none;
+    display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     border: solid rgb(97, 163, 217);
     border-top: none;
     background: rgb(221, 238, 252);
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.8s ease-out;
 }
 
 .paper-image {
