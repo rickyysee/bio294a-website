@@ -115,7 +115,8 @@ h6 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: flex-start;
+    max-width: 1000px;
+    margin: 0px auto;
 }
 
 .paper-head {
