@@ -6,6 +6,7 @@
 
 body {
     margin: 0px;
+    padding-bottom: 30px;
 }
 
 .main {
@@ -58,6 +59,16 @@ h4 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 0px;
     padding-top: 15px;
+    align-self: center;
+}
+
+h5 {
+    width: 90%;
+    text-align: center;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0px;
+    padding-bottom: 15px;
     align-self: center;
 }
 
@@ -125,6 +136,11 @@ h4 {
     border-bottom: solid rgb(97, 163, 217);
 }
 
+hr {
+    border-top: dashed rgb(97, 163, 217);
+    width: 100%;
+}
+
 .figure {
     width: 90%;
     align-self: center;
@@ -150,4 +166,14 @@ h4 {
 .inner-body .paper-text {
     margin: 0;
     width: 100%;
+}
+
+.two-figures {
+    display: flex;
+    width: 90%;
+    align-self: center;
+}
+
+.two-figures .figure {
+    width: 50%;
 }
