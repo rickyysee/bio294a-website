@@ -39,8 +39,14 @@ body {
 p {
     width: 80%;
     margin: 0px auto;
-    text-align: center;
+    text-align: justify;
 }
+
+li {
+    width: 80%;
+    margin: 0px auto;
+}
+
 h1, h2 {
     width: 100%;
     text-align: center;
@@ -71,6 +77,16 @@ h5 {
     margin: 0px;
     padding-bottom: 15px;
     align-self: center;
+}
+
+h6 {
+    width: 90%;
+    text-align: center;
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0px;
+    align-self: center;
+    font-weight: normal;
 }
 
 .links {
